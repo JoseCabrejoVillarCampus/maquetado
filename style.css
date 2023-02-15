@@ -10,6 +10,7 @@ body{
     margin-right: 10%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 20px;
 }
 header{
     font-family: 'Old London';
@@ -21,6 +22,7 @@ section{
 }
 .titulo{
     font-family: 'Old London';
+    font-weight: bold;
     padding: 20px 0px 20px 250px;
     font-size: 35px;
     margin-top: 0%;
@@ -29,6 +31,10 @@ section{
 }
 hr{
     border: 4px solid black;
+}
+.mes{
+    font-size: 18px;
+    font-weight: bold;
 }
 #secprin{
     position: relative;
@@ -50,7 +56,7 @@ hr{
 }
 footer{
     width: cover;
-    padding: 20px 0px 20px 300px;
+    padding: 20px 0px 20px 370px;
     Font-family: 'Old London';
     font-size: 50px;
 }
@@ -60,14 +66,20 @@ footer{
     border-color: black;
     border-width: 8px;
     border-style: double;
-    border-corner-shape:scoop;
     border-radius: 20px;
+    width: 550px;
+    height: 380px;
 }
 #horno{
     position: relative;
-    font-size: 25px;
+    font-size: 55px;
 }
-
+#horno1{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    top: -20px;
+}
 #señoracocina{
     position: relative;
     left: 5px;
@@ -76,22 +88,35 @@ footer{
     width: 600px;
     height: 350px;
 }
+.horno2{
+    position: relative;
+}
+#señorita{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    top:-420px;
+    right: -350px;
+    z-index: 10;
+}
 #señor{
     
-    width: 250px;
-    height: 280px;
+    width: 200px;
+    height: 260px;
 }
 #señorvino{
     position: relative;
-    right: -300px;
+    right: -370px;
     top: 20px ;
-    z-index: -10;
+    z-index: 10;
 }
 
 #olivo{
     position: absolute;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 21px;
     width: 90%;
+    bottom: -20px;
 }
 #dulce{
     font-size: 30px;
@@ -106,8 +131,8 @@ footer{
 
 }
 #niños{
-    height: 150px;
-    width: 250px;
+    height: 350px;
+    width: 450px;
 }
 #div5{
     position: relative;
@@ -117,9 +142,38 @@ footer{
 
 }
 #uni{
+    position: relative;
+    font-weight: bold;
     padding-left: 15px;
+    font-size: 21px;
+    top:45px
+
 }
 #niños{
     position: relative;
     left: 75px;
+}
+#postre{
+    position: relative;
+    left: -280px;
+    top: 10px;
+    z-index: 15;
+}
+#torta{
+    position: relative;
+    right: -440px;
+    top: -160px;
+    z-index: 10;
+}
+.ult{
+    position: relative;
+    top: -80px;
+}
+#pio{
+    position: relative;
+    bottom: -70px;
+}
+#piu{
+    position: relative;
+    top:-210px; 
 }
