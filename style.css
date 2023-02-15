@@ -1,37 +1,85 @@
+@font-face {
+    font-family: 'Old London';
+    src: url(/fuentes/OldLondon.ttf);
+}
 body{
+
+    background-image: url(./img/31239.jpg);
+    background-size: cover;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 10%;
     padding-right: 10%;
 }
 header{
-    background-color: aqua;
-    padding: 50px 100px 50px 100px;
-    font-size: 70px;
+    font-family: 'Old London';
+    font-size: 100px;
 }
 section{
-    display: inline;
+    display: block;
 }
 .titulo{
-    background-color: aquamarine;
+    font-family: 'Old London';
     padding: 20px 0px 20px 200px;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 0%;
     margin-bottom: 0%;
 
 }
-.sec1{
-    background-color: chartreuse;
+hr{
+    border: 4px solid black;
 }
-.sec2{
-    background-color: cornflowerblue;
+#secprin{
+    position: relative;
+    width: 1110px;
+    height: 1020px;
+    display: inline-block;
+    
+}
+#sec1{
+    position: relative;
+    left: 0%;
+    margin-right: 600px;
+}
+#sec2{
+    position: absolute;
+    margin-right: 600px;
+    top: 0%;
+    right: -430px;
 }
 footer{
-    background-color: bisque;
-    padding: 20px 0px 20px 400px;
-    font-size: 32px;
+    width: cover;
+    padding: 20px 0px 20px 300px;
+    Font-family: 'Old London';
+    font-size: 50px;
 }
 
 #div2{
+    display:block;
     border: 1px solid black;
+    border: 4px solid black;
+}
+#señora{
+    width: 400px;
+    height: 300px;
+}
+#sueño{
+    font-size: 25px;
+}
+#dulce{
+    font-size: 20px;
+}
+#niños{
+    height: 150px;
+    width: 250px;
+}
+#div5{
+    border-left: 5px solid black;
+}
+#uni{
+    padding-left: 15px;
+}
+#niños{
+    position: relative;
+    left: 75px;
 }
