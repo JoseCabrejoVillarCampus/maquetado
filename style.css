@@ -2,6 +2,7 @@
     font-family: 'Old London';
     src: url(/fuentes/OldLondon.ttf);
 }
+
 body{
 
     background-image: url(./img/31239.jpg);
@@ -73,6 +74,7 @@ footer{
 #horno{
     position: relative;
     font-size: 55px;
+    font-weight: lighter;
 }
 #horno1{
     position: relative;
@@ -96,7 +98,7 @@ footer{
     width: 150px;
     height: 200px;
     top:-420px;
-    right: -350px;
+    right: -410px;
     z-index: 10;
 }
 #señor{
