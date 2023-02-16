@@ -3,15 +3,20 @@
     src: url(/fuentes/OldLondon.ttf);
 }
 
+
 body{
 
-    background-image: url(./img/31239.jpg);
+    background-image: url(./img/wp1826473.jpg);
     background-size: cover;
     margin-left: 10%;
     margin-right: 10%;
     padding-left: 10%;
     padding-right: 10%;
     margin-bottom: 20px;
+}
+#fondo{
+    background-image: url(./img/31239.jpg);
+    background-size: cover;
 }
 header{
     font-family: 'Old London';
@@ -80,7 +85,7 @@ footer{
     position: relative;
     font-size: 20px;
     font-weight: bold;
-    top: -20px;
+    top: -90px;
 }
 #señoracocina{
     position: relative;
@@ -97,7 +102,7 @@ footer{
     position: relative;
     width: 150px;
     height: 200px;
-    top:-420px;
+    top:-495px;
     right: -410px;
     z-index: 10;
 }
@@ -112,7 +117,11 @@ footer{
     top: 20px ;
     z-index: 10;
 }
-
+#eventos{
+    font-size: 85px;
+    font-family: cursive;
+    font-weight: bold;
+}
 #olivo{
     position: absolute;
     font-weight: bold;
@@ -147,19 +156,19 @@ footer{
     position: relative;
     font-weight: bold;
     padding-left: 15px;
-    font-size: 21px;
+    font-size: 18px;
     top:45px
 
 }
 #niños{
     position: relative;
-    left: 75px;
+    left: 25px;
 }
 #postre{
     position: relative;
     left: -280px;
-    top: 10px;
-    z-index: 15;
+    top: 23px;
+    z-index: 10;
 }
 #torta{
     position: relative;
@@ -177,5 +186,8 @@ footer{
 }
 #piu{
     position: relative;
-    top:-210px; 
+    top:-205px; 
+}
+#fot{
+    padding-bottom: 0px;
 }
